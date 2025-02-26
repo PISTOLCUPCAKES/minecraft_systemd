@@ -1,6 +1,9 @@
 # minecraft_systemd
 systemd files to run a Minecraft server
 
+### Notice
+This is a fork of [jtait's repo](https://github.com/jtait/minecraft_systemd) for my personal use. Feel free to use it but there will be customizations for my setup.
+
 ### Description
 
 Includes an instantiable service and accompanying socket. The socket connects to stdin of the server process to allow commands to be passed, including the stop command used by the service.
